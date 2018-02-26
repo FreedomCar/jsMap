@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <title>自动导航</title>
+    <style>
+        #panel {
+            position: fixed;
+            background-color: white;
+            max-height: 90%;
+            overflow-y: auto;
+            top: 10px;
+            right: 10px;
+            width: 280px;
+        }
+    </style>
+    <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main.css?v=1.0?v=1.0"/>
+    <script type="text/javascript"
+            src="http://webapi.amap.com/maps?v=1.4.4&key=8d146109fba41dd7708c03a8d64ce992&plugin=AMap.ToolBar"></script>
+    <script type="text/javascript"
+            src="http://webapi.amap.com/maps?v=1.4.4&key=8d146109fba41dd7708c03a8d64ce992&plugin=AMap.Riding"></script>
+</head>
+<body>
+<div id="container"></div>
+<div id="panel"></div>
+<script>
+    var map = new AMap.Map("container", {
+        resizeEnable: true,
+        zoom: 13 //地图显示的缩放级别
+    });
+    map.plugin('AMap.Geolocation', function () {
+        geolocation = new AMap.Geolocation({
+            enableHighAccuracy: true,//是否使用高精度定位，默认:true
+            timeout: 10000,          //超过10秒后停止定位，默认：无穷大
+            buttonOffset: new AMap.Pixel(10, 20),//定位按钮与设置的停靠位置的偏移量，默认：Pixel(10, 20)
+            zoomToAccuracy: true,      //定位成功后调整地图视野范围使定位位置及精度范围视野内可见，默认：false
+            buttonPosition: 'RB'
+        });
+        map.addControl(geolocation);
+        geolocation.getCurrentPosition();
+        AMap.event.addListener(geolocation, 'complete', function (result) {
+            var originPosition = [result.position.lat, result.position.lng];
+            var destination = [result.position.lat + 0.1, result.position.lng];
+            var mapRiding = new AMap.Riding({
+                map: map,
+                panel: "panel"
+            });
+            console.log(originPosition);
+            console.log(destination);
+            mapRiding.search([result.position.lat, result.position.lng], [result.position.lat + 0.1, result.position.lng], function (status, info) {
+                console.log(status);
+                console.log(info);
+            });
+        });
+    });
+</script>
+</body>
+</html>
