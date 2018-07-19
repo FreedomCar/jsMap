@@ -1,0 +1,507 @@
+[
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/CONTRACTOR.dir/src/contractor/contractor.cpp.o -c /opt/osrm-backend-5.1.0/src/contractor/contractor.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/contractor/contractor.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/ENGINE.dir/src/engine/engine.cpp.o -c /opt/osrm-backend-5.1.0/src/engine/engine.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/engine/engine.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/ENGINE.dir/src/engine/engine_config.cpp.o -c /opt/osrm-backend-5.1.0/src/engine/engine_config.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/engine/engine_config.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/ENGINE.dir/src/engine/hint.cpp.o -c /opt/osrm-backend-5.1.0/src/engine/hint.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/engine/hint.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/ENGINE.dir/src/engine/search_engine_data.cpp.o -c /opt/osrm-backend-5.1.0/src/engine/search_engine_data.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/engine/search_engine_data.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/ENGINE.dir/src/engine/polyline_compressor.cpp.o -c /opt/osrm-backend-5.1.0/src/engine/polyline_compressor.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/engine/polyline_compressor.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/ENGINE.dir/src/engine/douglas_peucker.cpp.o -c /opt/osrm-backend-5.1.0/src/engine/douglas_peucker.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/engine/douglas_peucker.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/ENGINE.dir/src/engine/guidance/assemble_steps.cpp.o -c /opt/osrm-backend-5.1.0/src/engine/guidance/assemble_steps.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/engine/guidance/assemble_steps.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/ENGINE.dir/src/engine/guidance/post_processing.cpp.o -c /opt/osrm-backend-5.1.0/src/engine/guidance/post_processing.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/engine/guidance/post_processing.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/ENGINE.dir/src/engine/guidance/assemble_route.cpp.o -c /opt/osrm-backend-5.1.0/src/engine/guidance/assemble_route.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/engine/guidance/assemble_route.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/ENGINE.dir/src/engine/guidance/assemble_overview.cpp.o -c /opt/osrm-backend-5.1.0/src/engine/guidance/assemble_overview.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/engine/guidance/assemble_overview.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/ENGINE.dir/src/engine/plugins/tile.cpp.o -c /opt/osrm-backend-5.1.0/src/engine/plugins/tile.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/engine/plugins/tile.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/ENGINE.dir/src/engine/plugins/table.cpp.o -c /opt/osrm-backend-5.1.0/src/engine/plugins/table.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/engine/plugins/table.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/ENGINE.dir/src/engine/plugins/match.cpp.o -c /opt/osrm-backend-5.1.0/src/engine/plugins/match.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/engine/plugins/match.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/ENGINE.dir/src/engine/plugins/nearest.cpp.o -c /opt/osrm-backend-5.1.0/src/engine/plugins/nearest.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/engine/plugins/nearest.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/ENGINE.dir/src/engine/plugins/trip.cpp.o -c /opt/osrm-backend-5.1.0/src/engine/plugins/trip.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/engine/plugins/trip.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/ENGINE.dir/src/engine/plugins/viaroute.cpp.o -c /opt/osrm-backend-5.1.0/src/engine/plugins/viaroute.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/engine/plugins/viaroute.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/ENGINE.dir/src/engine/api/json_factory.cpp.o -c /opt/osrm-backend-5.1.0/src/engine/api/json_factory.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/engine/api/json_factory.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/EXTRACTOR.dir/src/extractor/compressed_edge_container.cpp.o -c /opt/osrm-backend-5.1.0/src/extractor/compressed_edge_container.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/extractor/compressed_edge_container.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/EXTRACTOR.dir/src/extractor/extraction_containers.cpp.o -c /opt/osrm-backend-5.1.0/src/extractor/extraction_containers.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/extractor/extraction_containers.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/EXTRACTOR.dir/src/extractor/suffix_table.cpp.o -c /opt/osrm-backend-5.1.0/src/extractor/suffix_table.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/extractor/suffix_table.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/EXTRACTOR.dir/src/extractor/extractor_callbacks.cpp.o -c /opt/osrm-backend-5.1.0/src/extractor/extractor_callbacks.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/extractor/extractor_callbacks.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/EXTRACTOR.dir/src/extractor/raster_source.cpp.o -c /opt/osrm-backend-5.1.0/src/extractor/raster_source.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/extractor/raster_source.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/EXTRACTOR.dir/src/extractor/edge_based_graph_factory.cpp.o -c /opt/osrm-backend-5.1.0/src/extractor/edge_based_graph_factory.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/extractor/edge_based_graph_factory.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/EXTRACTOR.dir/src/extractor/restriction_parser.cpp.o -c /opt/osrm-backend-5.1.0/src/extractor/restriction_parser.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/extractor/restriction_parser.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/EXTRACTOR.dir/src/extractor/scripting_environment.cpp.o -c /opt/osrm-backend-5.1.0/src/extractor/scripting_environment.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/extractor/scripting_environment.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/EXTRACTOR.dir/src/extractor/graph_compressor.cpp.o -c /opt/osrm-backend-5.1.0/src/extractor/graph_compressor.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/extractor/graph_compressor.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/EXTRACTOR.dir/src/extractor/extractor.cpp.o -c /opt/osrm-backend-5.1.0/src/extractor/extractor.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/extractor/extractor.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/EXTRACTOR.dir/src/extractor/restriction_map.cpp.o -c /opt/osrm-backend-5.1.0/src/extractor/restriction_map.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/extractor/restriction_map.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/EXTRACTOR.dir/src/extractor/guidance/motorway_handler.cpp.o -c /opt/osrm-backend-5.1.0/src/extractor/guidance/motorway_handler.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/extractor/guidance/motorway_handler.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/EXTRACTOR.dir/src/extractor/guidance/turn_analysis.cpp.o -c /opt/osrm-backend-5.1.0/src/extractor/guidance/turn_analysis.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/extractor/guidance/turn_analysis.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/EXTRACTOR.dir/src/extractor/guidance/turn_handler.cpp.o -c /opt/osrm-backend-5.1.0/src/extractor/guidance/turn_handler.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/extractor/guidance/turn_handler.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/EXTRACTOR.dir/src/extractor/guidance/roundabout_handler.cpp.o -c /opt/osrm-backend-5.1.0/src/extractor/guidance/roundabout_handler.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/extractor/guidance/roundabout_handler.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/EXTRACTOR.dir/src/extractor/guidance/intersection_handler.cpp.o -c /opt/osrm-backend-5.1.0/src/extractor/guidance/intersection_handler.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/extractor/guidance/intersection_handler.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/EXTRACTOR.dir/src/extractor/guidance/intersection_generator.cpp.o -c /opt/osrm-backend-5.1.0/src/extractor/guidance/intersection_generator.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/extractor/guidance/intersection_generator.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/EXTRACTOR.dir/src/extractor/guidance/intersection.cpp.o -c /opt/osrm-backend-5.1.0/src/extractor/guidance/intersection.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/extractor/guidance/intersection.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/EXTRACTOR.dir/src/extractor/guidance/intersection_scenario_three_way.cpp.o -c /opt/osrm-backend-5.1.0/src/extractor/guidance/intersection_scenario_three_way.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/extractor/guidance/intersection_scenario_three_way.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/EXTRACTOR.dir/src/extractor/guidance/classification_data.cpp.o -c /opt/osrm-backend-5.1.0/src/extractor/guidance/classification_data.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/extractor/guidance/classification_data.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/SERVER.dir/src/server/request_parser.cpp.o -c /opt/osrm-backend-5.1.0/src/server/request_parser.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/server/request_parser.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/SERVER.dir/src/server/request_handler.cpp.o -c /opt/osrm-backend-5.1.0/src/server/request_handler.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/server/request_handler.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/SERVER.dir/src/server/service_handler.cpp.o -c /opt/osrm-backend-5.1.0/src/server/service_handler.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/server/service_handler.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/SERVER.dir/src/server/connection.cpp.o -c /opt/osrm-backend-5.1.0/src/server/connection.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/server/connection.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/SERVER.dir/src/server/http/reply.cpp.o -c /opt/osrm-backend-5.1.0/src/server/http/reply.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/server/http/reply.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/SERVER.dir/src/server/api/url_parser.cpp.o -c /opt/osrm-backend-5.1.0/src/server/api/url_parser.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/server/api/url_parser.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/SERVER.dir/src/server/api/parameters_parser.cpp.o -c /opt/osrm-backend-5.1.0/src/server/api/parameters_parser.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/server/api/parameters_parser.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/SERVER.dir/src/server/service/nearest_service.cpp.o -c /opt/osrm-backend-5.1.0/src/server/service/nearest_service.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/server/service/nearest_service.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/SERVER.dir/src/server/service/tile_service.cpp.o -c /opt/osrm-backend-5.1.0/src/server/service/tile_service.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/server/service/tile_service.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/SERVER.dir/src/server/service/route_service.cpp.o -c /opt/osrm-backend-5.1.0/src/server/service/route_service.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/server/service/route_service.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/SERVER.dir/src/server/service/table_service.cpp.o -c /opt/osrm-backend-5.1.0/src/server/service/table_service.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/server/service/table_service.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/SERVER.dir/src/server/service/match_service.cpp.o -c /opt/osrm-backend-5.1.0/src/server/service/match_service.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/server/service/match_service.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/SERVER.dir/src/server/service/trip_service.cpp.o -c /opt/osrm-backend-5.1.0/src/server/service/trip_service.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/server/service/trip_service.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/STORAGE.dir/src/storage/storage.cpp.o -c /opt/osrm-backend-5.1.0/src/storage/storage.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/storage/storage.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/STORAGE.dir/src/storage/storage_config.cpp.o -c /opt/osrm-backend-5.1.0/src/storage/storage_config.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/storage/storage_config.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/UTIL.dir/src/util/exception.cpp.o -c /opt/osrm-backend-5.1.0/src/util/exception.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/util/exception.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/UTIL.dir/src/util/coordinate.cpp.o -c /opt/osrm-backend-5.1.0/src/util/coordinate.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/util/coordinate.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/UTIL.dir/src/util/coordinate_calculation.cpp.o -c /opt/osrm-backend-5.1.0/src/util/coordinate_calculation.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/util/coordinate_calculation.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/UTIL.dir/src/util/name_table.cpp.o -c /opt/osrm-backend-5.1.0/src/util/name_table.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/util/name_table.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/UTIL.dir/src/util/simple_logger.cpp.o -c /opt/osrm-backend-5.1.0/src/util/simple_logger.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/util/simple_logger.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/UTIL.dir/src/util/hilbert_value.cpp.o -c /opt/osrm-backend-5.1.0/src/util/hilbert_value.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/util/hilbert_value.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/UTIL.dir/src/util/fingerprint.cpp.o -c /opt/osrm-backend-5.1.0/src/util/fingerprint.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/util/fingerprint.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/UTIL.dir/src/util/assert.cpp.o -c /opt/osrm-backend-5.1.0/src/util/assert.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/util/assert.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/osrm.dir/src/osrm/osrm.cpp.o -c /opt/osrm-backend-5.1.0/src/osrm/osrm.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/osrm/osrm.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/osrm-contract.dir/src/tools/contract.cpp.o -c /opt/osrm-backend-5.1.0/src/tools/contract.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/tools/contract.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/osrm-datastore.dir/src/tools/store.cpp.o -c /opt/osrm-backend-5.1.0/src/tools/store.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/tools/store.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/osrm-extract.dir/src/tools/extract.cpp.o -c /opt/osrm-backend-5.1.0/src/tools/extract.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/tools/extract.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/osrm-routed.dir/src/tools/routed.cpp.o -c /opt/osrm-backend-5.1.0/src/tools/routed.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/tools/routed.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build/unit_tests",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2 -I/opt/osrm-backend-5.1.0/unit_tests    -o CMakeFiles/engine-tests.dir/engine_tests.cpp.o -c /opt/osrm-backend-5.1.0/unit_tests/engine_tests.cpp",
+  "file": "/opt/osrm-backend-5.1.0/unit_tests/engine_tests.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build/unit_tests",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2 -I/opt/osrm-backend-5.1.0/unit_tests    -o CMakeFiles/engine-tests.dir/engine/geometry_string.cpp.o -c /opt/osrm-backend-5.1.0/unit_tests/engine/geometry_string.cpp",
+  "file": "/opt/osrm-backend-5.1.0/unit_tests/engine/geometry_string.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build/unit_tests",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2 -I/opt/osrm-backend-5.1.0/unit_tests    -o CMakeFiles/engine-tests.dir/engine/base64.cpp.o -c /opt/osrm-backend-5.1.0/unit_tests/engine/base64.cpp",
+  "file": "/opt/osrm-backend-5.1.0/unit_tests/engine/base64.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build/unit_tests",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2 -I/opt/osrm-backend-5.1.0/unit_tests    -o CMakeFiles/engine-tests.dir/engine/guidance_assembly.cpp.o -c /opt/osrm-backend-5.1.0/unit_tests/engine/guidance_assembly.cpp",
+  "file": "/opt/osrm-backend-5.1.0/unit_tests/engine/guidance_assembly.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build/unit_tests",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2 -I/opt/osrm-backend-5.1.0/unit_tests    -o CMakeFiles/engine-tests.dir/engine/douglas_peucker.cpp.o -c /opt/osrm-backend-5.1.0/unit_tests/engine/douglas_peucker.cpp",
+  "file": "/opt/osrm-backend-5.1.0/unit_tests/engine/douglas_peucker.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build/unit_tests",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/extractor-tests.dir/extractor_tests.cpp.o -c /opt/osrm-backend-5.1.0/unit_tests/extractor_tests.cpp",
+  "file": "/opt/osrm-backend-5.1.0/unit_tests/extractor_tests.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build/unit_tests",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/extractor-tests.dir/extractor/compressed_edge_container.cpp.o -c /opt/osrm-backend-5.1.0/unit_tests/extractor/compressed_edge_container.cpp",
+  "file": "/opt/osrm-backend-5.1.0/unit_tests/extractor/compressed_edge_container.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build/unit_tests",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/extractor-tests.dir/extractor/raster_source.cpp.o -c /opt/osrm-backend-5.1.0/unit_tests/extractor/raster_source.cpp",
+  "file": "/opt/osrm-backend-5.1.0/unit_tests/extractor/raster_source.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build/unit_tests",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/extractor-tests.dir/extractor/graph_compressor.cpp.o -c /opt/osrm-backend-5.1.0/unit_tests/extractor/graph_compressor.cpp",
+  "file": "/opt/osrm-backend-5.1.0/unit_tests/extractor/graph_compressor.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build/unit_tests",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2 -I/opt/osrm-backend-5.1.0/unit_tests    -o CMakeFiles/library-tests.dir/library_tests.cpp.o -c /opt/osrm-backend-5.1.0/unit_tests/library_tests.cpp",
+  "file": "/opt/osrm-backend-5.1.0/unit_tests/library_tests.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build/unit_tests",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2 -I/opt/osrm-backend-5.1.0/unit_tests    -o CMakeFiles/library-tests.dir/library/tile.cpp.o -c /opt/osrm-backend-5.1.0/unit_tests/library/tile.cpp",
+  "file": "/opt/osrm-backend-5.1.0/unit_tests/library/tile.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build/unit_tests",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2 -I/opt/osrm-backend-5.1.0/unit_tests    -o CMakeFiles/library-tests.dir/library/table.cpp.o -c /opt/osrm-backend-5.1.0/unit_tests/library/table.cpp",
+  "file": "/opt/osrm-backend-5.1.0/unit_tests/library/table.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build/unit_tests",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2 -I/opt/osrm-backend-5.1.0/unit_tests    -o CMakeFiles/library-tests.dir/library/match.cpp.o -c /opt/osrm-backend-5.1.0/unit_tests/library/match.cpp",
+  "file": "/opt/osrm-backend-5.1.0/unit_tests/library/match.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build/unit_tests",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2 -I/opt/osrm-backend-5.1.0/unit_tests    -o CMakeFiles/library-tests.dir/library/nearest.cpp.o -c /opt/osrm-backend-5.1.0/unit_tests/library/nearest.cpp",
+  "file": "/opt/osrm-backend-5.1.0/unit_tests/library/nearest.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build/unit_tests",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2 -I/opt/osrm-backend-5.1.0/unit_tests    -o CMakeFiles/library-tests.dir/library/route.cpp.o -c /opt/osrm-backend-5.1.0/unit_tests/library/route.cpp",
+  "file": "/opt/osrm-backend-5.1.0/unit_tests/library/route.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build/unit_tests",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2 -I/opt/osrm-backend-5.1.0/unit_tests    -o CMakeFiles/library-tests.dir/library/trip.cpp.o -c /opt/osrm-backend-5.1.0/unit_tests/library/trip.cpp",
+  "file": "/opt/osrm-backend-5.1.0/unit_tests/library/trip.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build/unit_tests",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2 -I/opt/osrm-backend-5.1.0/unit_tests    -o CMakeFiles/library-tests.dir/library/limits.cpp.o -c /opt/osrm-backend-5.1.0/unit_tests/library/limits.cpp",
+  "file": "/opt/osrm-backend-5.1.0/unit_tests/library/limits.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build/unit_tests",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/server-tests.dir/server_tests.cpp.o -c /opt/osrm-backend-5.1.0/unit_tests/server_tests.cpp",
+  "file": "/opt/osrm-backend-5.1.0/unit_tests/server_tests.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build/unit_tests",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/server-tests.dir/server/url_parser.cpp.o -c /opt/osrm-backend-5.1.0/unit_tests/server/url_parser.cpp",
+  "file": "/opt/osrm-backend-5.1.0/unit_tests/server/url_parser.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build/unit_tests",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2    -o CMakeFiles/server-tests.dir/server/parameters_parser.cpp.o -c /opt/osrm-backend-5.1.0/unit_tests/server/parameters_parser.cpp",
+  "file": "/opt/osrm-backend-5.1.0/unit_tests/server/parameters_parser.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build/unit_tests",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2 -I/opt/osrm-backend-5.1.0/unit_tests    -o CMakeFiles/util-tests.dir/util_tests.cpp.o -c /opt/osrm-backend-5.1.0/unit_tests/util_tests.cpp",
+  "file": "/opt/osrm-backend-5.1.0/unit_tests/util_tests.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build/unit_tests",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2 -I/opt/osrm-backend-5.1.0/unit_tests    -o CMakeFiles/util-tests.dir/util/web_mercator.cpp.o -c /opt/osrm-backend-5.1.0/unit_tests/util/web_mercator.cpp",
+  "file": "/opt/osrm-backend-5.1.0/unit_tests/util/web_mercator.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build/unit_tests",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2 -I/opt/osrm-backend-5.1.0/unit_tests    -o CMakeFiles/util-tests.dir/util/string_util.cpp.o -c /opt/osrm-backend-5.1.0/unit_tests/util/string_util.cpp",
+  "file": "/opt/osrm-backend-5.1.0/unit_tests/util/string_util.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build/unit_tests",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2 -I/opt/osrm-backend-5.1.0/unit_tests    -o CMakeFiles/util-tests.dir/util/viewport.cpp.o -c /opt/osrm-backend-5.1.0/unit_tests/util/viewport.cpp",
+  "file": "/opt/osrm-backend-5.1.0/unit_tests/util/viewport.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build/unit_tests",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2 -I/opt/osrm-backend-5.1.0/unit_tests    -o CMakeFiles/util-tests.dir/util/static_graph.cpp.o -c /opt/osrm-backend-5.1.0/unit_tests/util/static_graph.cpp",
+  "file": "/opt/osrm-backend-5.1.0/unit_tests/util/static_graph.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build/unit_tests",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2 -I/opt/osrm-backend-5.1.0/unit_tests    -o CMakeFiles/util-tests.dir/util/duration_parsing.cpp.o -c /opt/osrm-backend-5.1.0/unit_tests/util/duration_parsing.cpp",
+  "file": "/opt/osrm-backend-5.1.0/unit_tests/util/duration_parsing.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build/unit_tests",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2 -I/opt/osrm-backend-5.1.0/unit_tests    -o CMakeFiles/util-tests.dir/util/coordinate_calculation.cpp.o -c /opt/osrm-backend-5.1.0/unit_tests/util/coordinate_calculation.cpp",
+  "file": "/opt/osrm-backend-5.1.0/unit_tests/util/coordinate_calculation.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build/unit_tests",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2 -I/opt/osrm-backend-5.1.0/unit_tests    -o CMakeFiles/util-tests.dir/util/dynamic_graph.cpp.o -c /opt/osrm-backend-5.1.0/unit_tests/util/dynamic_graph.cpp",
+  "file": "/opt/osrm-backend-5.1.0/unit_tests/util/dynamic_graph.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build/unit_tests",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2 -I/opt/osrm-backend-5.1.0/unit_tests    -o CMakeFiles/util-tests.dir/util/bearing.cpp.o -c /opt/osrm-backend-5.1.0/unit_tests/util/bearing.cpp",
+  "file": "/opt/osrm-backend-5.1.0/unit_tests/util/bearing.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build/unit_tests",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2 -I/opt/osrm-backend-5.1.0/unit_tests    -o CMakeFiles/util-tests.dir/util/binary_heap.cpp.o -c /opt/osrm-backend-5.1.0/unit_tests/util/binary_heap.cpp",
+  "file": "/opt/osrm-backend-5.1.0/unit_tests/util/binary_heap.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build/unit_tests",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2 -I/opt/osrm-backend-5.1.0/unit_tests    -o CMakeFiles/util-tests.dir/util/static_rtree.cpp.o -c /opt/osrm-backend-5.1.0/unit_tests/util/static_rtree.cpp",
+  "file": "/opt/osrm-backend-5.1.0/unit_tests/util/static_rtree.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build/unit_tests",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2 -I/opt/osrm-backend-5.1.0/unit_tests    -o CMakeFiles/util-tests.dir/util/io.cpp.o -c /opt/osrm-backend-5.1.0/unit_tests/util/io.cpp",
+  "file": "/opt/osrm-backend-5.1.0/unit_tests/util/io.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build/unit_tests",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2 -I/opt/osrm-backend-5.1.0/unit_tests    -o CMakeFiles/util-tests.dir/util/rectangle.cpp.o -c /opt/osrm-backend-5.1.0/unit_tests/util/rectangle.cpp",
+  "file": "/opt/osrm-backend-5.1.0/unit_tests/util/rectangle.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build/unit_tests",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2 -I/opt/osrm-backend-5.1.0/unit_tests    -o CMakeFiles/util-tests.dir/util/range_table.cpp.o -c /opt/osrm-backend-5.1.0/unit_tests/util/range_table.cpp",
+  "file": "/opt/osrm-backend-5.1.0/unit_tests/util/range_table.cpp"
+},
+{
+  "directory": "/opt/osrm-backend-5.1.0/build/src/benchmarks",
+  "command": "/usr/bin/c++   -DBOOST_FILESYSTEM_NO_DEPRECATED -DBOOST_RESULT_OF_USE_DECLTYPE -DBOOST_SPIRIT_USE_PHOENIX_V3 -DBOOST_TEST_DYN_LINK -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -flto=2 -Wall -Wextra -pedantic -Wuninitialized -Wunreachable-code -Wstrict-overflow=1 -D_FORTIFY_SOURCE=2 -fdiagnostics-color=auto -fPIC -ffunction-sections -fdata-sections -std=c++11  -fopenmp -O3 -DNDEBUG -I/opt/osrm-backend-5.1.0/include -I/opt/osrm-backend-5.1.0/build/include -isystem /opt/osrm-backend-5.1.0/third_party -isystem /opt/osrm-backend-5.1.0/third_party/libosmium/include -isystem /usr/include/luabind -isystem /usr/include/lua5.2 -I/opt/osrm-backend-5.1.0/unit_tests    -o CMakeFiles/rtree-bench.dir/static_rtree.cpp.o -c /opt/osrm-backend-5.1.0/src/benchmarks/static_rtree.cpp",
+  "file": "/opt/osrm-backend-5.1.0/src/benchmarks/static_rtree.cpp"
+}
+]

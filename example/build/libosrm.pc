@@ -1,0 +1,11 @@
+prefix=/usr/local
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: libOSRM
+Description: Project OSRM library
+Version: v5.1.0
+Requires:
+Libs: -L${libdir} -losrm
+Libs.private:  -L/usr/lib/i386-linux-gnu -lboost_date_time -L/usr/lib/i386-linux-gnu -lboost_filesystem -L/usr/lib/i386-linux-gnu -lboost_iostreams -L/usr/lib/i386-linux-gnu -lboost_program_options -L/usr/lib/i386-linux-gnu -lboost_regex -L/usr/lib/i386-linux-gnu -lboost_system -L/usr/lib/i386-linux-gnu -lboost_thread -L/usr/lib/i386-linux-gnu -lpthread -L/usr/lib/i386-linux-gnu -lpthread -L/usr/lib/i386-linux-gnu -lstxxl -L/usr/lib/i386-linux-gnu -ltbb -L/usr/lib/i386-linux-gnu -ltbbmalloc -L/usr/lib/i386-linux-gnu -lrt
+Cflags: -I${includedir} -I${includedir}/osrm
