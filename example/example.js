@@ -1,4 +1,4 @@
-process.env.UV_THREADPOOL_SIZE = Math.ceil(require('os').cpus().length * 1.5);
+lsprocess.env.UV_THREADPOOL_SIZE = Math.ceil(require('os').cpus().length * 1.5);
 
 var express = require('express');
 var OSRM = require('..');
