@@ -71,16 +71,16 @@ std::list<point> plan(double fromlon, double fromlat, double tolon, double tolat
         auto &step = r1.values["steps"].get<json::Array>();
         
         // get the steps and record it
-        int num = routes.size();
+        int num = routes.values.size();
         for (int i = 0; i < num; i++)
         {
-            auto &si = steps.values.at[i].get<json::Object>();
+            auto &si = step.values.at(i).get<json::Object>();
             auto &mean = si.values["maneuver"].get<json::Object>();
-            auto &loc = mean.values["location"].get<json::Object>();
+            auto &loc = mean.values["location"].get<json::Array>();
             
             point tempPoint;
-            tempPoint.lon = loc.lon();
-            tempPoint.lat = loc.lat();
+            tempPoint.lon = loc.values.at(0).get<json::Number>().value;
+            tempPoint.lat = loc.values.at(1).get<json::Number>().value;
             
             re.push_back(tempPoint);
         }

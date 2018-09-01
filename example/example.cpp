@@ -18,72 +18,101 @@
 
 #include <cstdlib>
 
-int main(int argc, const char *argv[])
+#include <list>
+
+struct point
 {
-    if (argc < 2)
-    {
-        std::cerr << "Usage: " << argv[0] << " data.osrm\n";
-        return EXIT_FAILURE;
-    }
+    double lon;
+    double lat;
+};
 
+std::list<point> plan(double fromlon, double fromlat, double tolon, double tolat)
+{
     using namespace osrm;
-
+    
     // Configure based on a .osrm base path, and no datasets in shared mem from osrm-datastore
     EngineConfig config;
-
-    config.storage_config = {argv[1]};
+    
+    config.storage_config = {"test/data/monaco.osrm"};
     config.use_shared_memory = false;
-
+    
     // We support two routing speed up techniques:
     // - Contraction Hierarchies (CH): requires extract+contract pre-processing
     // - Multi-Level Dijkstra (MLD): requires extract+partition+customize pre-processing
     //
     // config.algorithm = EngineConfig::Algorithm::CH;
     config.algorithm = EngineConfig::Algorithm::MLD;
-
+    
     // Routing machine with several services (such as Route, Table, Nearest, Trip, Match)
     const OSRM osrm{config};
-
+    
     // The following shows how to use the Route service; configure this service
     RouteParameters params;
-
+    
     // Route in monaco
-    params.coordinates.push_back({util::FloatLongitude{7.419758}, util::FloatLatitude{43.731142}});
-    params.coordinates.push_back({util::FloatLongitude{7.419505}, util::FloatLatitude{43.736825}});
-
+    params.coordinates.push_back({util::FloatLongitude{fromlon}, util::FloatLatitude{fromlat}});
+    params.coordinates.push_back({util::FloatLongitude{tolon}, util::FloatLatitude{tolat}});
+    
     // Response is in JSON format
     json::Object result;
-
+    
     // Execute routing request, this does the heavy lifting
     const auto status = osrm.Route(params, result);
-
+    
+    std::list<point> re;
     if (status == Status::Ok)
     {
         auto &routes = result.values["routes"].get<json::Array>();
-
+        
         // Let's just use the first route
         auto &route = routes.values.at(0).get<json::Object>();
-        const auto distance = route.values["distance"].get<json::Number>().value;
-        const auto duration = route.values["duration"].get<json::Number>().value;
-
-        // Warn users if extract does not contain the default coordinates from above
-        if (distance == 0 || duration == 0)
+        auto &legs = route.values["legs"].get<json::Array>();
+        auto &r1 = legs.values.at(0).get<json::Object>();
+        auto &step = r1.values["steps"].get<json::Array>();
+        
+        // get the steps and record it
+        int num = routes.values.size();
+        for (int i = 0; i < num; i++)
         {
-            std::cout << "Note: distance or duration is zero. ";
-            std::cout << "You are probably doing a query outside of the OSM extract.\n\n";
+            auto &si = step.values.at(i).get<json::Object>();
+            auto &mean = si.values["maneuver"].get<json::Object>();
+            auto &loc = mean.values["location"].get<json::Object>();
+            
+            point tempPoint;
+            tempPoint.lon = loc.values[0];
+            tempPoint.lat = loc.values[1];
+            
+            re.push_back(tempPoint);
         }
-
-        std::cout << "Distance: " << distance << " meter\n";
-        std::cout << "Duration: " << duration << " seconds\n";
-        return EXIT_SUCCESS;
+        
+        return re;
     }
     else if (status == Status::Error)
     {
+        // error
         const auto code = result.values["code"].get<json::String>().value;
         const auto message = result.values["message"].get<json::String>().value;
-
+        
         std::cout << "Code: " << code << "\n";
         std::cout << "Message: " << code << "\n";
-        return EXIT_FAILURE;
+        
+        return re;
     }
+}
+
+int main()
+{
+    std::list<point> r = plan(116.481028, 39.989643, 116.465302, 40.004717);
+    
+    std::list<point>::iterator itor; //定义迭代器
+    
+    //从list第一个iterator开始
+    itor = r.begin();
+    while (itor != r.end())
+    {
+        std::cout << (*itor++).lon << ",";
+        std::cout << (*itor++).lat << std::endl;
+    }
+    return 0;
+    
 }
