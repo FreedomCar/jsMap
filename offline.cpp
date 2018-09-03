@@ -62,28 +62,40 @@ std::list<point> plan(double fromlon, double fromlat, double tolon, double tolat
     std::list<point> re;
     if (status == Status::Ok)
     {
-        auto &routes = result.values["routes"].get<json::Array>();
-        
-        // Let's just use the first route
-        auto &route = routes.values.at(0).get<json::Object>();
-        auto &legs = route.values["legs"].get<json::Array>();
-        auto &r1 = legs.values.at(0).get<json::Object>();
-        auto &step = r1.values["steps"].get<json::Array>();
-        
-        // get the steps and record it
-        int num = step.values.size();
-        for (int i = 0; i < num; i++)
-        {
-            auto &si = step.values.at(i).get<json::Object>();
-            auto &mean = si.values["maneuver"].get<json::Object>();
-            auto &loc = mean.values["location"].get<json::Array>();
+        auto &waypionts = result.values['waypoints'].get<json::Array>();
+        int num = waypionts.values.size();
+        for(int i = 0; i < num; i++){
+            auto &point = waypionts.values.at[i].get<json::Object>();
+            auto &loc = point.values["location"].get<json::Array>();
             
             point tempPoint;
             tempPoint.lon = loc.values.at(0).get<json::Number>().value;
             tempPoint.lat = loc.values.at(1).get<json::Number>().value;
-            
             re.push_back(tempPoint);
         }
+        
+        //        auto &routes = result.values["routes"].get<json::Array>();
+        //
+        //        // Let's just use the first route
+        //        auto &route = routes.values.at(0).get<json::Object>();
+        //        auto &legs = route.values["legs"].get<json::Array>();
+        //        auto &r1 = legs.values.at(0).get<json::Object>();
+        //        auto &step = r1.values["steps"].get<json::Array>();
+        //
+        //        // get the steps and record it
+        //        int num = step.values.size();
+        //        for (int i = 0; i < num; i++)
+        //        {
+        //            auto &si = step.values.at(i).get<json::Object>();
+        //            auto &mean = si.values["maneuver"].get<json::Object>();
+        //            auto &loc = mean.values["location"].get<json::Array>();
+        //
+        //            point tempPoint;
+        //            tempPoint.lon = loc.values.at(0).get<json::Number>().value;
+        //            tempPoint.lat = loc.values.at(1).get<json::Number>().value;
+        //
+        //            re.push_back(tempPoint);
+        //        }
         
         return re;
     }
