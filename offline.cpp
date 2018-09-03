@@ -71,7 +71,7 @@ std::list<point> plan(double fromlon, double fromlat, double tolon, double tolat
         auto &step = r1.values["steps"].get<json::Array>();
         
         // get the steps and record it
-        int num = routes.values.size();
+        int num = step.values.size();
         for (int i = 0; i < num; i++)
         {
             auto &si = step.values.at(i).get<json::Object>();
