@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/router_plan_lib.dir/src/global_planner.cpp.o  -o /home/kiki/catkin_ws/devel/lib/router_plan/router_plan_lib -rdynamic 

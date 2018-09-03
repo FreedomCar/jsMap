@@ -1,0 +1,8 @@
+prefix=/home/kiki/catkin_ws/install
+
+Name: router_plan
+Description: Description of router_plan
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/kiki/catkin_ws/install/lib 
+Requires: 

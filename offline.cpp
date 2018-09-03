@@ -11,6 +11,8 @@
 #include "osrm/osrm.hpp"
 #include "osrm/status.hpp"
 
+#include "conversion.h"
+
 #include <exception>
 #include <iostream>
 #include <string>
@@ -19,11 +21,13 @@
 #include <cstdlib>
 
 #include <list>
+#include <vector>
 
 struct point
 {
     double lon;
     double lat;
+    double angle;
 };
 
 std::list<point> plan(double fromlon, double fromlat, double tolon, double tolat)
@@ -54,61 +58,93 @@ std::list<point> plan(double fromlon, double fromlat, double tolon, double tolat
     params.coordinates.push_back({util::FloatLongitude{tolon}, util::FloatLatitude{tolat}});
     
     // Response is in JSON format
-    json::Object result;
+    json::Object jsonResult;
     
     // Execute routing request, this does the heavy lifting
-    const auto status = osrm.Route(params, result);
+    const auto status = osrm.Route(params, jsonResult);
     
-    std::list<point> re;
+    // The temp response with lat and lon
+    std::vector<point> re;
+    // The real response with x and y
+    std::list<point> result;
     if (status == Status::Ok)
     {
-        auto &waypionts = result.values['waypoints'].get<json::Array>();
-        int num = waypionts.values.size();
-        for(int i = 0; i < num; i++){
-            auto &point = waypionts.values.at[i].get<json::Object>();
-            auto &loc = point.values["location"].get<json::Array>();
+        /**auto &waypionts = result.values["waypoints"].get<json::Array>();
+         int num = waypionts.values.size();
+         for(int i = 0; i < num; i++){
+         auto &point = waypionts.values.at[i].get<json::Object>();
+         auto &loc = point.values["location"].get<json::Array>();
+         
+         point tempPoint;
+         tempPoint.lon = loc.values.at(0).get<json::Number>().value;
+         tempPoint.lat = loc.values.at(1).get<json::Number>().value;
+         re.push_back(tempPoint);
+         }**/
+        
+        auto &routes = jsonResult.values["routes"].get<json::Array>();
+        
+        // Let's just use the first route
+        auto &route = routes.values.at(0).get<json::Object>();
+        auto &legs = route.values["legs"].get<json::Array>();
+        auto &r1 = legs.values.at(0).get<json::Object>();
+        auto &step = r1.values["steps"].get<json::Array>();
+        
+        // get the steps and record it
+        int num = step.values.size();
+        for (int i = 0; i < num; i++)
+        {
+            auto &si = step.values.at(i).get<json::Object>();
+            auto &mean = si.values["maneuver"].get<json::Object>();
+            auto &loc = mean.values["location"].get<json::Array>();
             
             point tempPoint;
+            tempPoint.angle = mean.values["bearing_after"].get<json::Number>().value -
+            mean.values["bearing_before"].get<json::Number>().value;
             tempPoint.lon = loc.values.at(0).get<json::Number>().value;
             tempPoint.lat = loc.values.at(1).get<json::Number>().value;
             re.push_back(tempPoint);
         }
         
-        //        auto &routes = result.values["routes"].get<json::Array>();
-        //
-        //        // Let's just use the first route
-        //        auto &route = routes.values.at(0).get<json::Object>();
-        //        auto &legs = route.values["legs"].get<json::Array>();
-        //        auto &r1 = legs.values.at(0).get<json::Object>();
-        //        auto &step = r1.values["steps"].get<json::Array>();
-        //
-        //        // get the steps and record it
-        //        int num = step.values.size();
-        //        for (int i = 0; i < num; i++)
-        //        {
-        //            auto &si = step.values.at(i).get<json::Object>();
-        //            auto &mean = si.values["maneuver"].get<json::Object>();
-        //            auto &loc = mean.values["location"].get<json::Array>();
-        //
-        //            point tempPoint;
-        //            tempPoint.lon = loc.values.at(0).get<json::Number>().value;
-        //            tempPoint.lat = loc.values.at(1).get<json::Number>().value;
-        //
-        //            re.push_back(tempPoint);
-        //        }
-        
-        return re;
+        for (int i = 0; i < re.size() - 1; i++)
+        {
+            point translatedPointStart;
+            conversion::UTM(re[i].lat, re[i].lon, &translatedPointStart.lat, &translatedPointStart.lon);
+            point translatedPointEnd;
+            conversion::UTM(re[i + 1].lat, re[i + 1].lon, &translatedPointEnd.lat, &translatedPointEnd.lon);
+            //calculate the distance of two point and then use the int(distance) as the equal part num
+            double x_distance = translatedPointEnd.lat - translatedPointStart.lat;
+            double y_distance = translatedPointEnd.lon - translatedPointStart.lon;
+            int distance = std::round(std::sqrt(x_distance * x_distance + y_distance * y_distance));
+            double x_delta = x_distance / distance;
+            double y_delta = y_distance / distance;
+            
+            for (int j = 0; j < distance; j++)
+            {
+                point translatedPoint;
+                translatedPoint.angle = translatedPointStart.angle;
+                translatedPoint.lat=translatedPointStart.lat+x_delta*j;
+                translatedPoint.lon=translatedPointStart.lon+y_delta*j;
+                result.push_back(translatedPoint);
+            }
+        }
+        //add the last point
+        point translatedPoint;
+        translatedPoint.angle = re[re.size()-1].angle;
+        translatedPoint.lat=re[re.size()-1].lat;
+        translatedPoint.lon=re[re.size()-1].lon;
+        result.push_back(translatedPoint);
+        return result;
     }
     else if (status == Status::Error)
     {
         // error
-        const auto code = result.values["code"].get<json::String>().value;
-        const auto message = result.values["message"].get<json::String>().value;
+        const auto code = jsonResult.values["code"].get<json::String>().value;
+        const auto message = jsonResult.values["message"].get<json::String>().value;
         
         std::cout << "Code: " << code << "\n";
         std::cout << "Message: " << code << "\n";
         
-        return re;
+        return result;
     }
 }
 
