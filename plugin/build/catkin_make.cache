@@ -1,0 +1,2 @@
+router_plan
+-DCATKIN_DEVEL_PREFIX=/home/kiki/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/kiki/catkin_ws/install -G Unix Makefiles
