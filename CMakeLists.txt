@@ -3,4 +3,4 @@ project(map)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(map online.cpp offline.cpp)
+add_executable(map online.cpp)
