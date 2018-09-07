@@ -92,9 +92,8 @@ std::list<point> route_plan(string fromlon, string fromlat, string tolon, string
         }
         //add the last point
         point translatedPoint;
+        conversion::UTM(re[re.size() - 1].lat, re[re.size() - 1].lon, &translatedPointEnd.lat, &translatedPointEnd.lon);
         translatedPoint.angle = re[re.size() - 1].angle;
-        translatedPoint.lat = re[re.size() - 1].lat;
-        translatedPoint.lon = re[re.size() - 1].lon;
         result.push_back(translatedPoint);
         return result;
     } else {
